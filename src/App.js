@@ -1,6 +1,7 @@
 import Button from "./component/Button";
 import Input from "./component/Input";
 import Nav from "./component/Nav";
+import Feature from "./component/feature";
 
 import "./style/bootstrap.min.css";
 
@@ -28,6 +29,8 @@ function App() {
           <Input type="password" placeholder="Password" />
         </div>
         <br></br>
+        <Feature color="red" colour="blue" />
+        <Feature color="blue" colour="red" />
       </div>
     </div>
   );
