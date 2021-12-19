@@ -33,7 +33,9 @@ function App() {
         <Feature color="red" colour="blue" />
         <Feature color="blue" colour="red" />
       </div>
-      <Card />
+      <div>
+        <Card />
+      </div>
     </div>
   );
 }
