@@ -3,6 +3,7 @@ import Input from "./component/Input";
 import Nav from "./component/Nav";
 import Feature from "./component/feature";
 import Card from "./component/Card";
+import Cardd from "./component/Cardd";
 
 import "./style/bootstrap.min.css";
 
@@ -35,7 +36,12 @@ function App() {
       </div>
       <div>
         <Card />
-      </div>
+      </div>{" "}
+      <br></br>
+      <div>
+        <Cardd tittle="hdfjgkhfkdg" text="sfhhgurt " />
+      </div>{" "}
+      <br></br>
     </div>
   );
 }

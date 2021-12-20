@@ -2,7 +2,7 @@ import React from "react";
 import "../style/card.css";
 import Pic1 from "../images/Pic1.png";
 
-function Card() {
+function Cardd({ name = "", tittle = "", text = "" }) {
   return (
     <div>
       <div className="container">
@@ -15,10 +15,8 @@ function Card() {
         <div className="card card_size">
           <img class="card-img-top" src={Pic1} alt="Card image" />
           <div className="card-body">
-            <h4 className="card-title text-center">Card title</h4>
-            <p className="card-text text-center">
-              Some example text. Some example text.
-            </p>
+            <h4 className="card-title text-center text-black" tittle={tittle} />
+            <p className="card-text text-center" text={text} />
             <div className="d-flex justify-content-center">
               <a href="#" className="card-link">
                 Card link
@@ -33,4 +31,4 @@ function Card() {
     </div>
   );
 }
-export default Card;
+export default Cardd;
