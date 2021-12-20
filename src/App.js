@@ -4,6 +4,7 @@ import Nav from "./component/Nav";
 import Feature from "./component/feature";
 import Card from "./component/Card";
 import Cardd from "./component/Cardd";
+import Heropart from "./component/Heropart";
 
 import "./style/bootstrap.min.css";
 
@@ -12,6 +13,8 @@ function App() {
     <div className="App">
       <Nav />
       <div className="container">
+        <Heropart />
+
         <h1>React</h1>
         <Button name="Submit" />
         <div>
@@ -33,14 +36,30 @@ function App() {
         <br></br>
         <Feature color="red" colour="blue" />
         <Feature color="blue" colour="red" />
+        <br></br>
+
+        <div>
+          <div>
+            <h2 className="text-center">Team</h2>
+          </div>
+          <div className=" row ">
+            <div className="col-4">
+              <Cardd tittle="hdfjgkhfkdg" text="sfhhgurt " />
+            </div>
+            <div className="col-4">
+              <Cardd tittle="I Love You" text="sfhhgurt " />
+            </div>
+            <div className="col-4">
+              <Cardd tittle="I Miss You" text="sfhhgurt " />
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         <Card />
-      </div>{" "}
+      </div>
       <br></br>
-      <div>
-        <Cardd tittle="hdfjgkhfkdg" text="sfhhgurt " />
-      </div>{" "}
+
       <br></br>
     </div>
   );

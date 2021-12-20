@@ -1,0 +1,15 @@
+.img_size {
+  width: 90%;
+  height: 90%;
+  padding-top: 50px;
+}
+.hero_h1_txt {
+  font-size: 58px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+.hero_p_txt {
+  font-size: 28px;
+  font-style: italic;
+  padding-right: 10px;
+}
