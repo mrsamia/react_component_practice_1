@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/card.css";
+
 import Pic1 from "../images/Pic1.png";
 
 function Cardd({ name = "", tittle = "", text = "" }) {
